@@ -11,13 +11,18 @@ import {
   Text,
   View,
   Image
-} from 'react-native';
+} from 'react-native'; 
 
-export default class App extends Component {
+
+import Judul from './Components/Judul';
+
+export default class App extends 
+Component {
   render() {
     return (
 
       <View style={styles.container}>
+      <Judul/>
         <Image style={styles.gambar}
         source={require('./content/gmbr.jpeg')}/>
         <Text></Text>
